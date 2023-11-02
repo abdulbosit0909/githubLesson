@@ -17,7 +17,7 @@ fun AppNavigation() {
         }
         composable("detail/{data}",
             arguments = listOf(navArgument("data"){
-                typegit = NavType.StringType
+                type = NavType.StringType
             })
         ) { navBackStackEntry ->
             navBackStackEntry.arguments?.let {

@@ -41,7 +41,7 @@ fun HomePage(
         Product(
             R.drawable.ic_launcher_background,
             "android bg",
-            300.0
+            300.0git
         )
     )
     ProductList(data, navController)
